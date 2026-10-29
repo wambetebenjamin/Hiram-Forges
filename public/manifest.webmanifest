@@ -1,0 +1,17 @@
+{
+  "name": "Hiram Forges",
+  "short_name": "Hiram Forges",
+  "description": "Directory of blacksmiths, welders and metal fabricators so communities can repair, commission and keep metal tools in use.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f3cf2d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

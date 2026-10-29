@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------
+  Hiram Forges
+  globals.css
+  The uploaded template design, fonts, tokens, layout and animations are
+  preserved exactly. Everything below the "Brand tokens" block is either
+  the original template stylesheet or additive rules for the new interface
+  pieces (floating actions, cookie sheet, directory controls).
+---------------------------------------------------------------------*/
+
+@import "tailwindcss";
+
+/* The template families Rajdhani, Poppins, Raleway and Lato are linked from
+   the document head in app/layout.tsx so the browser applies them before the
+   other rules. Poppins is additionally self hosted in styles/fonts.css. */
+
+@import "./styles/fonts.css";
+@import "./styles/bootstrap-grid.min.css";
+@import "./styles/font-awesome.min.css";
+@import "./styles/animate.min.css";
+@import "./styles/template.css";
+@import "./styles/responsive.css";
+@import "./styles/brand.css";
+
+/*---------------------------------------------------------------------
+  Brand tokens
+  Branding only. The template palette, type scale and spacing are
+  untouched: #f3cf2d yellow, #030303 black, #061553 headings,
+  #212120 footer, Poppins / Raleway according to the original sheet.
+---------------------------------------------------------------------*/
+:root {
+  --hf-yellow: #f3cf2d;
+  --hf-yellow-soft: #f6dc67;
+  --hf-black: #030303;
+  --hf-ink: #111111;
+  --hf-body: #666666;
+  --hf-heading: #061553;
+  --hf-footer: #212120;
+  --hf-white: #ffffff;
+  --hf-line: #909090;
+}
