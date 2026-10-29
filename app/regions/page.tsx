@@ -52,7 +52,7 @@ export default function RegionsPage() {
                 <div className={`col-md-5${index % 2 === 1 ? " order-md-2 offset-md-1" : ""}`}>
                   <Image
                     src={region.image}
-                    alt={`Metalwork in ${region.country}`}
+                    alt=""
                     width={900}
                     height={675}
                     sizes="(max-width: 767px) 100vw, 460px"

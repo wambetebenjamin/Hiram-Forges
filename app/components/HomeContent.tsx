@@ -207,7 +207,7 @@ export function HomeContent() {
                   <Link className="hf-region-card" href={`/regions#${region.slug}`}>
                     <Image
                       src={region.image}
-                      alt={`Metalwork in ${region.country}`}
+                      alt=""
                       width={720}
                       height={520}
                       sizes="(max-width: 767px) 100vw, 360px"
