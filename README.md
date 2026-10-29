@@ -5,6 +5,7 @@
 Directory of blacksmiths, welders and metal fabricators so communities can repair,
 commission and keep metal tools in use.
 
+- Live: https://hiram-forges.vercel.app, production, region cdg1
 - Site: Next.js 16 App Router, React 19, Tailwind 4, TypeScript
 - Locales: English, Kiswahili, Francais (light switcher, cookie and device storage)
 - Images: real Pexels workshop photography only, credited in `image-credits.md`
@@ -129,6 +130,12 @@ Copy `.env.example` to `.env.local`.
 | `CONTACT_WEBHOOK_URL` | optional | Forwards listing and contact submissions |
 
 ## Deploy
+
+The project is already created on Vercel as `hiram-forges` and deployed to production at
+https://hiram-forges.vercel.app with `AUTH_SECRET`, `AUTH_TRUST_HOST` and
+`NEXT_PUBLIC_SITE_URL` set for production, preview and development.
+
+To redeploy by hand:
 
 ```bash
 vercel link
